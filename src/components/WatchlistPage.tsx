@@ -182,7 +182,11 @@ export default function WatchlistPage() {
           <div className="flex items-center gap-12">
             <Link to="/" className="flex items-center gap-3">
               <div className="size-8 rounded-lg flex items-center justify-center">
-                 <img src="/favicon.png" alt="Stoxie Logo" className="size-8" />
+                 <img
+                  src="/public/stoxie-logo.png"
+                  alt="Stoxie Logo"
+                  className="relative size-6 drop-shadow-[0_0_10px_rgba(34,211,238,0.9)]"
+                />
               </div>
               <span className="tracking-tight">Stoxie</span>
             </Link>

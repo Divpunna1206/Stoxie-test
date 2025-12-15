@@ -34,7 +34,11 @@ export default function AISummary() {
           <div className="flex items-center gap-8">
             <Link to="/dashboard" className="flex items-center gap-2">
               <div className="size-8 bg-gradient-to-br from-[#00FFFF] to-[#00D4FF] rounded-lg flex items-center justify-center">
-                <TrendingUp className="size-5 text-black" />
+                <img
+                  src="/public/stoxie-logo.png"
+                  alt="Stoxie Logo"
+                  className="relative size-6 drop-shadow-[0_0_10px_rgba(34,211,238,0.9)]"
+                />
               </div>
               <span className="tracking-tight">Stoxie</span>
             </Link>

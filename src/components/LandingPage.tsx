@@ -13,7 +13,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="size-10 flex items-center justify-center">
-               <img src="/favicon.png" alt="Stoxie Logo" className="size-10" />
+               <img src="/public/stoxie-logo.png" alt="Stoxie Logo" className="size-10" />
             </div>
             <span className="text-xl tracking-tight font-bold">Stoxie</span>
           </div>
@@ -428,7 +428,7 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-2">
               <div className="size-6 flex items-center justify-center">
-               <img src="/favicon.png" alt="Stoxie Logo" className="size-6" />
+               <img src="/public/stoxie-logo.png" alt="Stoxie Logo" className="size-6" />
               </div>
               <span className="tracking-tight">Stoxie</span>
             </div>
