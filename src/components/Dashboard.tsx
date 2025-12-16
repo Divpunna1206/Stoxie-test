@@ -166,7 +166,7 @@ export default function Dashboard() {
           <div className="flex items-center gap-12">
             <div className="flex items-center gap-3">
               <div className="size-10 flex items-center justify-center">
-                 <img src="/public/stoxie-logo.png" alt="Stoxie Logo" className="size-8" />
+                 <img src="/stoxie-logo.png" alt="Stoxie Logo" className="size-8" />
               </div>
               <span className="text-xl tracking-tight font-bold">Stoxie</span>
             </div>

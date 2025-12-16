@@ -13,7 +13,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="size-10 flex items-center justify-center">
-               <img src="/public/stoxie-logo.png" alt="Stoxie Logo" className="size-10" />
+               <img src="/stoxie-logo.png" alt="Stoxie Logo" className="size-10" />
             </div>
             <span className="text-xl tracking-tight font-bold">Stoxie</span>
           </div>
@@ -23,7 +23,7 @@ export default function LandingPage() {
             <Link to="/login">
               <Button variant="ghost" size="sm" className="text-sm hover:bg-gradient-to-r hover:from-[#00FFFF]/10 hover:to-[#00D4FF]/10 transition-all cursor-pointer">Login</Button>
             </Link>
-            <Link to="/dashboard">
+            <Link to="/login">
               <Button size="sm" className="bg-gradient-to-r from-[#00FFFF] to-[#00D4FF] hover:from-[#00D4FF] hover:to-[#00FFFF] hover:shadow-lg hover:shadow-[#00FFFF]/30 text-black rounded-2xl transition-all duration-300 cursor-pointer">
                 Claim Free Access
               </Button>
@@ -63,7 +63,7 @@ export default function LandingPage() {
             </p>
             
             <div className="flex items-center gap-4">
-              <Link to="/dashboard">
+              <Link to="/login">
                 <Button className="bg-gradient-to-r from-[#00FFFF] to-[#00D4FF] hover:from-[#00D4FF] hover:to-[#00FFFF] hover:shadow-lg hover:shadow-[#00FFFF]/30 text-black rounded-2xl px-8 h-12 transition-all duration-300 cursor-pointer">
                   Claim Your Free Spot Now
                   <ArrowRight className="ml-2 size-4" />
@@ -428,7 +428,7 @@ export default function LandingPage() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-2">
               <div className="size-6 flex items-center justify-center">
-               <img src="/public/stoxie-logo.png" alt="Stoxie Logo" className="size-6" />
+               <img src="/stoxie-logo.png" alt="Stoxie Logo" className="size-6" />
               </div>
               <span className="tracking-tight">Stoxie</span>
             </div>
